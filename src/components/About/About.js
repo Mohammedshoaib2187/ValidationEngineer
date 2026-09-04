@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/about.png";
+import laptopImg from "../../Assets/about-hil.png";
 import Toolstack from "./Toolstack";
 
 function About() {
@@ -30,7 +30,7 @@ function About() {
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img"
           >
-            <img src={laptopImg} alt="about" className="img-fluid" />
+            <img src={laptopImg} alt="HIL validation engineer at a workstation" className="img-fluid" style={{ borderRadius: "12px" }} />
           </Col>
         </Row>
 
