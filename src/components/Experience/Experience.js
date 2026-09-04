@@ -21,7 +21,7 @@ function Experience() {
                         </h1>
 
                         <h4 className="role-meta">
-                            <strong className="purple">Chrysler</strong> — Auburn Hills, Michigan
+                            <strong className="purple">Daimler Chrysler</strong> — Auburn Hills, Michigan
                         </h4>
                         <h4 className="role-meta">Aug 2025 – Present</h4>
                         <h4 className="role-meta">

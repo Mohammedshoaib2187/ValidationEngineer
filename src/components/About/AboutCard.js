@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi, I am <span className="purple">Shoaib Mohammed</span>, a{" "}
             <span className="purple">HIL Validation Engineer</span> currently
-            validating Infotainment and Connectivity systems at Chrysler in
+            validating Infotainment and Connectivity systems at Daimler Chrysler in
             Auburn Hills, Michigan.
             <br />
             <br />
