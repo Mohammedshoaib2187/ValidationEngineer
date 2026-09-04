@@ -10,8 +10,7 @@ import Experience from "./components/Experience/Experience";
 import {
   HashRouter as Router,
   Route,
-  Routes,
-  Navigate
+  Routes
 } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
@@ -43,6 +42,7 @@ function App() {
           <Route path="/experience" element={<Experience />} />
           <Route path="*" element={<Home />}/>
         </Routes>
+        <Footer />
       </div>
     </Router>
   );

@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
-import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
@@ -34,6 +33,19 @@ function About() {
             <img src={laptopImg} alt="about" className="img-fluid" />
           </Col>
         </Row>
+
+        <h1 className="project-heading">
+          Automotive <strong className="purple">Domains</strong>
+        </h1>
+        <div style={{ paddingBottom: "40px" }}>
+          <span className="domain-chip">ADAS</span>
+          <span className="domain-chip">Infotainment</span>
+          <span className="domain-chip">Connectivity</span>
+          <span className="domain-chip">Body Electronics</span>
+          <span className="domain-chip">Telematics</span>
+          <span className="domain-chip">ECU Validation</span>
+        </div>
+
         <h1 className="project-heading">
           Professional <strong className="purple">Skillset </strong>
         </h1>

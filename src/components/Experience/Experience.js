@@ -1,7 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/company-logo.jpg";
-import imge from "../../Assets/Logo.jpg";
 import Particle from "../Particle";
 
 function Experience() {
@@ -11,182 +9,99 @@ function Experience() {
                 <Particle />
 
                 <h1 className="project-heading">
-                    My <strong className="purple">Experiences</strong>
+                    My <strong className="purple">Experience</strong>
                 </h1>
 
                 <br />
 
-                {/* ================= KEE TECHNOLOGIES ================= */}
                 <Row className="experience-description m-2">
-                    <Col md={4} className="myAvtar">
-                        <img src={imge} className="img-fluid" alt="company-logo" />
-                    </Col>
-
-                    <Col md={8}>
-                        <h1 className="company-heading">
-                            Associate <strong className="purple">Software Engineer</strong>
+                    <Col md={12}>
+                        <h1 className="company-heading experience-role">
+                            HIL Validation <strong className="purple">Engineer</strong>
                         </h1>
 
-                        <h4 style={{ color: "white" }}>
-                            <strong className="purple">KEE Technologies Group</strong>
+                        <h4 className="role-meta">
+                            <strong className="purple">Chrysler</strong> — Auburn Hills, Michigan
+                        </h4>
+                        <h4 className="role-meta">Aug 2025 – Present</h4>
+                        <h4 className="role-meta">
+                            Project: Infotainment and Connectivity Validation
                         </h4>
 
-                        <h4 style={{ color: "white" }}>Jul 2024 – Present</h4>
-
-                        <br /><br />
+                        <br />
 
                         <h5 style={{ textAlign: "justify", color: "white" }}>
-                            I worked on an internal enterprise platform that acted as a central system for managing and tracking tasks involving
-                            both internal teams and external customers and partners, similar to how tools like Jira support workflow management.
-                            The platform provided a structured process where requests from customers or partners were created as work items,
-                            routed through defined workflows, and assigned to the appropriate internal teams. Each item moved through clear
-                            stages such as intake, review, approval, execution, and closure, with status updates, comments, and ownership tracked
-                            at every step. The system enabled teams to collaborate more effectively, maintain transparency with stakeholders,
-                            and ensure accountability, while leadership gained visibility into workload, turnaround times, and bottlenecks through
-                            centralized dashboards and reports. Overall, the platform replaced scattered communication and manual tracking with
-                            a reliable, scalable workflow system that improved coordination, efficiency, and customer and partner engagement.<br /><br />
-                            <strong className="purple">●</strong> Owned and delivered end-to-end full-stack features using React, Angular, Node.js, and REST APIs for
-                            business-critical internal workflows and reporting systems.<br /><br />
-
-                            <strong className="purple">●</strong> Improved frontend performance by 50% through optimized component rendering, memoization strategies, and
-                            state management patterns.<br /><br />
-
-                            <strong className="purple">●</strong>Designed and implemented backend services for authentication, authorization, reporting, and workflow
-                            orchestration, improving system security and reliability.<br /><br />
-
-                            <strong className="purple">●</strong> Established and maintained API contracts using Swagger/OpenAPI, enabling parallel frontend and backend
-                            development.<br /><br />
-
-                            <strong className="purple">●</strong> Built event-driven asynchronous workflows using Kafka and Azure Service Bus to improve fault tolerance
-                            and scalability.<br /><br />
-
-                            <strong className="purple">●</strong> Containerized applications using Docker and deployed them to Azure Kubernetes Service (AKS) with
-                            rolling deployments.<br /><br />
-
-                            <strong className="purple">●</strong> Developed CI/CD pipelines using Jenkins and GitHub Actions, reducing deployment-related incidents.<br /><br />
-
-                            <strong className="purple">●</strong> Implemented monitoring and alerting using Prometheus, Grafana, and Azure Application Insights.<br /><br />
-
-                            <strong className="purple">●</strong> Collaborated cross-functionally with product managers, designers, and QA engineers to deliver features from
-                            design to production.<br /><br />
-
+                            Validating Infotainment and Connectivity ECUs on HIL benches and at vehicle level, from requirement-based test design through defect closure and release readiness.
+                            <br /><br />
+                            <strong className="purple">●</strong> Created detailed test plans and validation strategies from feature specifications and system requirements, maintaining requirement-to-test-case-to-result traceability in IBM DOORS.
+                            <br /><br />
+                            <strong className="purple">●</strong> Developed and executed test procedures for Bluetooth, USB, Navigation, Audio, Radio, HMI, and connectivity features across 8+ vehicle builds.
+                            <br /><br />
+                            <strong className="purple">●</strong> Authored and executed 300+ functional, integration, regression, and system-level test cases, documenting execution results and defect evidence for engineering review.
+                            <br /><br />
+                            <strong className="purple">●</strong> Validated Android Auto and Apple CarPlay across 20+ device/OS combinations.
+                            <br /><br />
+                            <strong className="purple">●</strong> Verified Bluetooth profiles (HFP, A2DP, AVRCP, PBAP) and resolved 30+ interoperability defects through structured root-cause analysis.
+                            <br /><br />
+                            <strong className="purple">●</strong> Performed navigation route-guidance, destination-search, and map validation, plus USB media playback and compatibility testing.
+                            <br /><br />
+                            <strong className="purple">●</strong> Executed UDS diagnostic testing and analyzed CAN traces in CANoe and CANalyzer to isolate root causes and track software fixes to closure.
+                            <br /><br />
+                            <strong className="purple">●</strong> Developed and maintained Python and CAPL automation scripts and CANoe test configurations to automate regression suites.
+                            <br /><br />
+                            <strong className="purple">●</strong> Logged, triaged, and verified 100+ defects in Jira, driving issues to closure with development and system teams.
+                            <br /><br />
+                            <strong className="purple">●</strong> Supported vehicle-level testing of 10+ software releases and participated in daily Agile Scrum ceremonies, communicating status, risks, and defect trends to feature owners.
+                            <br /><br />
+                            <span className="project-env">
+                                Environment: dSPACE, CANoe, CANalyzer, CAPL, Python, CAN, CAN FD, UDS, VFlash, Android Auto, Apple CarPlay, Bluetooth, Jira, DOORS
+                            </span>
                         </h5>
                     </Col>
                 </Row>
                 <br /><br />
 
-                {/* ================= KEE INTERN ================= */}
                 <Row className="experience-description m-2">
-                    <Col md={4} className="myAvtar">
-                        <img src={imge} className="img-fluid" alt="company-logo" />
-                    </Col>
-
-                    <Col md={8}>
-                        <h1 className="company-heading">
-                            Software Engineering <strong className="purple">Intern</strong>
+                    <Col md={12}>
+                        <h1 className="company-heading experience-role">
+                            Automotive Test <strong className="purple">Engineer</strong>
                         </h1>
 
-                        <h4 style={{ color: "white" }}>
-                            <strong className="purple">KEE Technologies Group</strong>
+                        <h4 className="role-meta">
+                            <strong className="purple">Tata Motors</strong> — Hyderabad, India
+                        </h4>
+                        <h4 className="role-meta">Sep 2021 – Jul 2023</h4>
+                        <h4 className="role-meta">
+                            Project: ADAS HIL Validation and Test Automation
                         </h4>
 
-                        <h4 style={{ color: "white" }}>Dec 2023 – Jun 2024</h4>
-
-                        <br /><br />
+                        <br />
 
                         <h5 style={{ textAlign: "justify", color: "white" }}>
-                            Worked as a Software Engineering Intern supporting the development of multiple internal and client-facing web applications. Assisted senior engineers on full-stack projects involving real-time collaboration, workflow management,
-                            e-commerce functionality, and system monitoring. Gained hands-on experience working with modern web technolo-
-                            gies, cloud platforms, and Agile development practices.<br /><br />
-                            <strong className="purple">●</strong> Assisted in developing and enhancing full-stack web applications using React, Angular, and Node.js.<br /><br />
-
-                            <strong className="purple">●</strong> Supported implementation of backend APIs and basic business logic for user management and workflows.<br /><br />
-
-                            <strong className="purple">●</strong> Helped with building real-time features and interactive UI components under guidance from senior engineers.<br /><br />
-
-                            <strong className="purple">●</strong> Contributed to testing, debugging, and bug fixes to improve application stability and reliability.<br /><br />
-
-                            <strong className="purple">●</strong> Assisted with containerization and deployments using Docker and Kubernetes on AWS and Azure.<br /><br />
-
-                            <strong className="purple">●</strong> Helped set up and review monitoring dashboards and logs for application health and performance.<br /><br />
-
-                            <strong className="purple">●</strong> Participated in Agile ceremonies including daily stand-ups and sprint reviews.<br /><br />
-
-                            <strong className="purple">●</strong> Collaborated with cross-functional team members to understand requirements and deliver assigned tasks on
-                            time.<br /><br />
+                            Performed system-level validation of ADAS ECUs against customer requirements in dSPACE HIL environments, expanding automated regression coverage across release cycles.
+                            <br /><br />
+                            <strong className="purple">●</strong> Developed and executed requirement-based HIL test cases and test plans for ADAS ECU validation, configuring bench setups in dSPACE ConfigurationDesk and running real-time tests through ControlDesk.
+                            <br /><br />
+                            <strong className="purple">●</strong> Validated Adaptive Cruise Control, Lane Keep Assist, Automatic Emergency Braking, and Blind Spot Detection across simulated sensor inputs and vehicle-state conditions.
+                            <br /><br />
+                            <strong className="purple">●</strong> Built automated test sequences in dSPACE AutomationDesk and authored Vector vTESTstudio test cases executed on VT System benches.
+                            <br /><br />
+                            <strong className="purple">●</strong> Performed fault injection testing in dSPACE HIL environments to verify ECU diagnostic and safety responses.
+                            <br /><br />
+                            <strong className="purple">●</strong> Analyzed CAN messages and system behavior using CANoe and CANalyzer during HIL validation, and verified UDS diagnostic services and fault handling.
+                            <br /><br />
+                            <strong className="purple">●</strong> Reviewed Matlab/Simulink control models and feature specifications to derive test conditions and confirm expected ECU behavior during HIL runs.
+                            <br /><br />
+                            <strong className="purple">●</strong> Analyzed test failures, performed root-cause analysis, and collaborated with development teams to resolve issues.
+                            <br /><br />
+                            <strong className="purple">●</strong> Ran regression and integration cycles, generated validation reports, and maintained traceability from feature specification to test result in IBM DOORS.
+                            <br /><br />
+                            <span className="project-env">
+                                Environment: CANoe, CANalyzer, vTESTstudio, VT System, dSPACE (AutomationDesk, ControlDesk, ConfigurationDesk), ETAS INCA, HIL, CAN, UDS, Matlab/Simulink, Python, Jira, DOORS
+                            </span>
                         </h5>
                     </Col>
                 </Row>
-
-                <br /><br />
-
-                {/* ================= CHUBB ================= */}
-                <Row className="experience-description m-2">
-                    <Col md={4} className="myAvtar">
-                        <img src={myImg} className="img-fluid" alt="company-logo" />
-                    </Col>
-
-                    <Col md={8}>
-                        <h1 className="company-heading">
-                            Software <strong className="purple">Engineer</strong>
-                        </h1>
-
-                        <h4 style={{ color: "white" }}>
-                            <strong className="purple">CHUBB (India)</strong>
-                        </h4>
-
-                        <h4 style={{ color: "white" }}>Sep 2020 – Jul 2023</h4>
-
-                        <br /><br />
-
-                        <h5 style={{ textAlign: "justify", color: "white" }}>
-                            I worked on an enterprise insurance and claims management platform that supported end-to-end workflows including
-                            policy creation and updates, claims intake, validation, approval, payout processing, and internal operational support. The system handled sensitive customer and financial data, enforced complex business rules, and supported
-                            high transaction volumes while meeting strict security, compliance, and uptime requirements. A key focus of the
-                            project was modernizing legacy functionality in an incremental and controlled manner to improve maintainability
-                            and performance, while ensuring workflow continuity and uninterrupted business operations.
-                            <strong className="purple">●</strong> Developed and maintained backend and full-stack features for large-scale enterprise insurance and claims man-
-                            agement systems serving thousands of users.<br /><br />
-
-                            <strong className="purple">●</strong> Designed and implemented secure RESTful APIs consumed by multiple frontend applications and internal
-                            services.<br /><br />
-
-
-
-                            <strong className="purple">●</strong> Improved application performance by optimizing database queries, caching layers, and service logic, significantly reducing API response times.<br /><br />
-
-                            <strong className="purple">●</strong> Led migration of selected legacy components to containerized microservices deployed on Azure Kubernetes Service (AKS).<br /><br />
-
-                            <strong className="purple">●</strong> Collaborated closely with business analysts and product owners to translate complex insurance workflows into
-                            scalable technical solutions.<br /><br />
-
-                            <strong className="purple">●</strong> Implemented role-based access control (RBAC) and authentication flows to ensure compliance with enter-
-                            prise security standards.<br /><br />
-
-                            <strong className="purple">●</strong> Contributed to frontend development using Angular, building reusable components and responsive UI workflows.<br /><br />
-
-                            <strong className="purple">●</strong> Developed backend services using Python and Node.js, following clean architecture and SOLID principles.<br /><br />
-
-                            <strong className="purple">●</strong> Participated in Agile ceremonies including sprint planning, backlog refinement, daily stand-ups, and retrospectives.<br /><br />
-
-                            <strong className="purple">●</strong> Wrote comprehensive unit and integration tests, improving code coverage and reducing production defects.<br /><br />
-
-                            <strong className="purple">●</strong> Reviewed peer code and provided constructive feedback to improve code quality, readability, and maintainability.<br /><br />
-
-                            <strong className="purple">●</strong> Supported CI/CD pipelines by integrating automated testing and enforcing deployment best practices.<br /><br />
-
-                            <strong className="purple">●</strong> Assisted with API testing, validation, and documentation using Postman and Swagger/OpenAPI.<br /><br />
-
-                            <strong className="purple">●</strong> Investigated and resolved production issues by analyzing logs, monitoring metrics, and collaborating with cross-functional teams.<br /><br />
-
-                            <strong className="purple">●</strong> Actively contributed to technical discussions and knowledge-sharing sessions, helping improve team-wide engineering standards.<br /><br />
-
-
-
-                        </h5>
-                    </Col>
-                </Row>
-
             </Container>
         </section>
     );

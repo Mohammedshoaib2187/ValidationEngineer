@@ -3,7 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
-  AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
@@ -19,37 +18,36 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple"> Angular, Node.Js, C#, Javascript and AWS. </b>
-              </i>
+              I am a <b className="purple">HIL Validation Engineer</b> with
+              3+ years of experience developing test plans and executing
+              Hardware-in-the-Loop and embedded ECU validation.
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              I work across{" "}
               <i>
                 <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
+                  ADAS, Infotainment, Connectivity, body electronics, and
+                  Telematics
                 </b>
-              </i>
-              &nbsp; like
+              </i>{" "}
+              on dSPACE HIL benches and Vector toolchains.
+              <br />
+              <br />
+              Hands-on with{" "}
+              <b className="purple">
+                AutomationDesk, ControlDesk, ConfigurationDesk, CANoe,
+                CANalyzer, vTESTstudio,
+              </b>{" "}
+              and protocols including{" "}
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple">CAN, CAN FD, LIN, and UDS.</b>
               </i>
+              <br />
+              <br />
+              I build test automation in{" "}
+              <b className="purple">Python and CAPL</b>, perform fault
+              injection and trace analysis, and keep requirement-to-test
+              traceability in IBM DOORS within Agile and ASPICE programs.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -65,16 +63,6 @@ function Home2() {
               Feel free to <span className="purple">connect </span>with me
             </p>
             <ul className="home-about-social-links">
-              <li className="social-icons">
-                <a
-                  href="https://github.com/Mohammedshoaib2187"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiFillGithub />
-                </a>
-              </li>
               <li className="social-icons">
                 <a
                   href="https://x.com/shoaibmohd1077"

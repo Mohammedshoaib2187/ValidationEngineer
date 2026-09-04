@@ -2,12 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
   return (
@@ -15,88 +9,58 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          Validation <strong className="purple">Work </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          HIL, vehicle-level, and test-automation programs I have executed
+          across Infotainment, Connectivity, and ADAS.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
               isBlog={false}
-              title="Conversational AI with Furhat Robot"
-              description ="Developed an AI-powered conversational system by integrating the Furhat humanoid robot with Ope-
-nAI’s ChatGPT and emotion detection models. The system was designed to recognize user sentiment in real time
-and respond with adaptive, human-like expressions.
-Highlights: Built a Node.js backend for conversation orchestration, connected to an Angular dashboard that displayed
-real-time analytics of interactions. Added emotion recognition to personalize responses, improving engagement."              
+              title="Infotainment and Connectivity Validation"
+              description="Created test plans and validation strategies from feature specifications and system requirements for Bluetooth, USB, Navigation, Audio, Radio, HMI, and connectivity features across 8+ vehicle builds. Authored and executed 300+ functional, integration, regression, and system-level test cases with requirement-to-result traceability in IBM DOORS."
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
               isBlog={false}
-              title="Travel Recommendation System"
-              description="Created a smart travel assistant that recommends safe and optimal travel routes by combining Google
-Maps API, Weather API, and real-time traffic data. Designed to support travelers in making data-driven journey
-decisions.
-Highlights: Architected with Node.js microservices for backend, Angular UI for frontend, and deployed on AWS (EC2,
-Lambda, S3) with CI/CD pipelines. Optimized the system with caching and load balancing to handle 10K+ API
-requests/day."              
+              title="Android Auto & Apple CarPlay"
+              description="Validated Android Auto and Apple CarPlay across 20+ device and OS combinations. Verified Bluetooth profiles including HFP, A2DP, AVRCP, and PBAP, and resolved 30+ interoperability defects through structured root-cause analysis using CAN traces and bench reproduction."
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
               isBlog={false}
-              title="VoicePilot"
-              description="Designed a voice-controlled digital assistant to automate routine tasks such as messaging on WhatsApp,
-searching on Google, and controlling media playback on YouTube.
-Highlights: Built in Python with SpeechRecognition and pyttsx3 for natural voice interaction. Supported 15+
-automation commands, with modular plugin architecture for easy extension. Packaged as a lightweight desktop
-assistant."                         
+              title="Python & CAPL Test Automation"
+              description="Developed and maintained Python and CAPL automation scripts and CANoe test configurations to automate regression suites on each software release. Reduced manual execution effort while keeping release-readiness coverage consistent across Infotainment and Connectivity features."
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
               isBlog={false}
-              title="Internal Reporting Dashboard"
-              description="Developed a real-time reporting and analytics dashboard for enterprise use, replacing manual reporting
-processes and enabling leadership to make faster, data-driven decisions.
-Highlights: Implemented backend APIs in Node.js, a role-based Angular UI, and MongoDB for dynamic queries.
-Integrated Chart.js & D3.js for visualization, and added JWT-secured APIs for authentication. Reduced report
-generation time by 40%."              
+              title="ADAS HIL Validation"
+              description="Performed system-level validation of ADAS ECUs against customer requirements in dSPACE HIL environments. Validated Adaptive Cruise Control, Lane Keep Assist, Automatic Emergency Braking, and Blind Spot Detection across simulated sensor inputs and vehicle-state conditions."
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
               isBlog={false}
-              title="E-Commerce Platform"
-              description="Designed and developed a full-stack e-commerce web application supporting product listings, shopping
-cart, secure checkout, and order tracking. Implemented authentication and role-based access for customers and
-admins.
-Highlights: Built the backend with Node.js/Express.js and MongoDB, and frontend with Angular. Integrated payment
-gateway (Stripe API) for secure transactions. Deployed using Docker containers on AWS with CI/CD pipelines for
-automated builds and deployments. Implemented JWT-based authentication and Redis caching for faster responses."              
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="dSPACE & Vector Bench Automation"
+              description="Configured HIL benches in dSPACE ConfigurationDesk and ran real-time tests through ControlDesk. Built automated sequences in AutomationDesk and authored vTESTstudio test cases executed on VT System benches, expanding automated regression coverage across ADAS release cycles."
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
               isBlog={false}
-              title="Real-Time Collaboration Platform"
-              description="Engineered a Slack/Notion-style real-time collaboration platform supporting team messaging, shared
-whiteboards, and live document editing. Focused on high availability, scalability, and low-latency communication
-across distributed users.
-Highlights: Implemented backend microservices in Node.js with WebSockets and SignalR for real-time sync, and
-frontend in React/Angular with state management (NgRx/Redux). Deployed on Kubernetes (AKS + EKS) with
-auto-scaling. Added Redis + Kafka for event streaming, and ElasticSearch for chat history indexing. Integrated
-role-based access control (RBAC) and OAuth2 authentication. Observability enabled with Prometheus + Grafana
-dashboards. "              
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Diagnostics, Fault Injection & Traceability"
+              description="Executed UDS diagnostic testing, analyzed CAN traces in CANoe and CANalyzer, and performed fault injection on dSPACE HIL benches to verify ECU diagnostic and safety responses. Maintained specification-to-test-case-to-result traceability in IBM DOORS and drove 100+ defects to closure in Jira."
             />
           </Col>
         </Row>
